@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cloud_e-paper.iml" filepath="$PROJECT_DIR$/.idea/modules/Cloud_e-paper.iml" group="Cloud_e-paper" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Cloud_e-paper/app" />
+    </modules>
+  </component>
+</project>

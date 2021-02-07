@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Cloud e-Paper</string>
+    <string name="bluetooth">bluetooth</string>
+    <string name="nothing">" "</string>
+
+    <string name="scan">Bluetooth connection</string>
+    <string name="file">Load image file</string>
+    <string name="disp">Select display type</string>
+    <string name="filt">Select image filter</string>
+    <string name="upld">Upload image</string>
+    <string name="wifi">Wi-Fi connection</string>
+    <string name="chck">Check Wi-Fi connection</string>
+    <string name="brws">Open in browser</string>
+
+    <string name="txt_conn">Connected to:</string>
+    <string name="txt_load">Loaded:</string>
+    <string name="txt_slct">Selected:</string>
+    <string name="txt_upld">Uploaded:</string>
+
+    <string name="txt_BlackAndWhiteL">Level: mono</string>
+    <string name="txt_BlackWhiteRedL">Level: color</string>
+    <string name="txt_BlackAndWhiteD">Dithering: mono</string>
+    <string name="txt_BlackWhiteRedD">Dithering: color</string>
+
+    <string name="btn_okey">Ok</string>
+    <string name="btn_back">Back..</string>
+    <string name="btn_cncl">Cancel</string>
+
+    <string name="no_blue">Bluetooth device is not selected</string>
+    <string name="no_pict">Image file is not loaded</string>
+    <string name="no_disp">Display type is not selected</string>
+    <string name="no_filt">Image filter is not loaded</string>
+    <string name="no_addr">IP is not defined yet</string>
+    <string name="no_conn">Connection is lost</string>
+
+    <string name="dlg_devs">Bluetooth devices</string>
+    <string name="dlg_load">File browser</string>
+    <string name="dlg_disp">Select display type</string>
+    <string name="dlg_filt">Select image filter</string>
+    <string name="dlg_send">Uploaing</string>
+    <string name="dlg_note">Notification:</string>
+
+    <string name="failed_file">Loading is failed</string>
+    <string name="failed_filt">Filtering is failed</string>
+    <string name="failed_send">Uploading is failed</string>
+
+    <string name="wait">Wait please</string>
+    <string name="unav">Impossible to connect</string>
+    <string name="scnd"> sec.</string>
+
+    <string name="configure_device">configure device</string>
+    <string name="lock"> Lock</string>
+    <string name="device_password">device password</string>
+    <string name="device_id">device id</string>
+    <string name="wifi_ssid">wifi_ssid</string>
+    <string name="wifi_password">wifi_password</string>
+    <string name="host_ip">host_ip</string>
+    <string name="save_config">save config</string>
+    <string name="load_config">load config</string>
+    <string name="upload_config">upload config</string>
+    <string name="no_device_id">Device id is not entered</string>
+    <string name="no_wifi_ssid">Wifi ssid is not entered</string>
+    <string name="no_wifi_password">Wifi password is not entered</string>
+    <string name="no_host_ip">Host ip is not entered</string>
+    <string name="upload_config_completed">Upload configuration completed,The device will restart</string>
+    <string name="upload_config_failed">Upload configuration failed</string>
+    <string name="config1">Config1</string>
+    <string name="config2">Config2</string>
+    <string name="config3">Config3</string>
+    <string name="config4">Config3</string>
+    <string name="config_list">Configuration List</string>
+    <string name="device_is_locked">The device is locked, please enter the password</string>
+    <string name="Enter_device_password">Enter device password</string>
+    <string name="Connect_to_device">Connect to device, please hold on</string>
+    <string name="Incorrect_password">The password is incorrect</string>
+    <string name="Transmitting_data">Transfer data, please try again later</string>
+    <string name="Formatting_completed">Formatting configuration completed,The device will restart</string>
+    <string name="formatting" translatable="false">Formatting</string>
+    <string name="Formatting_failed">Formatting configuration failed</string>
+    <string name="low_power_text">Warning voltage(mv)</string>
+    <string name="lose_connect">Lose Connect</string>
+    <string name="warm_voltage_hight">Warm Voltage too hight</string>
+    <string name="get_wifi_ssid">Get Current SSID</string>
+    <string name="cannot_get_ssid">Can not get ssid</string>
+    <string name="now">Now</string>
+    <string name="device_ip">Device IP</string>
+    <string name="gateway_ip">Gateway IP</string>
+    <string name="netmask">Netmask</string>
+    <string name="dhcp">DHCP</string>
+    <string name="Miss_setting">The configuration is missing. Please check and try again</string>
+
+</resources>

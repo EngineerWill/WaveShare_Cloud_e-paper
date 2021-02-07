@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+// 解决support-annotations版本冲突
+configurations.all {
+    resolutionStrategy.force 'com.android.support:support-annotations:27.1.1'
+}
+android {
+    lintOptions {
+        checkReleaseBuilds true
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    /*
+    signingConfigs {
+        config {
+            keyAlias 'waveshare'
+            keyPassword 'waveshare'
+            storeFile file('C:\\android_project\\ePape_Esp32_Loader_APP\\cloud.jks')
+            storePassword 'waveshare'
+        }
+    }
+    */
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.waveshare.cloud_esp32"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

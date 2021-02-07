@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Cloud e-Paper</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="nothing">" "</string>
+
+    <string name="scan">连接蓝牙</string>
+    <string name="file">打开图像文件</string>
+    <string name="disp">选择墨水屏型号</string>
+    <string name="filt">选择图片处理算法</string>
+    <string name="upld">上传图像</string>
+    <string name="wifi">连接到wi-fi</string>
+    <string name="chck">检查Wi-Fi连接</string>
+    <string name="brws">在浏览器中打开</string>
+
+    <string name="txt_conn">连接到:</string>
+    <string name="txt_load">被装载:</string>
+    <string name="txt_slct">被选择:</string>
+    <string name="txt_upld">被卸载:</string>
+
+    <string name="txt_BlackAndWhiteL">黑白色阶算法</string>
+    <string name="txt_BlackWhiteRedL">三色色阶算法</string>
+    <string name="txt_BlackAndWhiteD">黑白抖动算法</string>
+    <string name="txt_BlackWhiteRedD">三色抖动算法</string>
+
+    <string name="btn_okey">确定</string>
+    <string name="btn_back">返回..</string>
+    <string name="btn_cncl">取消</string>
+
+    <string name="no_blue">没有选择蓝牙设备</string>
+    <string name="no_pict">没有选择图像文件</string>
+    <string name="no_disp">没有选择墨水屏型号</string>
+    <string name="no_filt">没有选择图片处理算法</string>
+    <string name="no_addr">IP没有被获取</string>
+    <string name="no_conn">没有连接</string>
+
+    <string name="dlg_devs">选择设备</string>
+    <string name="dlg_load">选择图像文件</string>
+    <string name="dlg_disp">选择墨水屏型号</string>
+    <string name="dlg_filt">选择图片处理算法</string>
+    <string name="dlg_send">上传</string>
+    <string name="dlg_note">警告:</string>
+
+    <string name="failed_file">Loading is failed</string>
+    <string name="failed_filt">Filtering is failed</string>
+    <string name="failed_send">Uploading is failed</string>
+
+    <string name="wait">等一下…</string>
+    <string name="unav">连接不了</string>
+    <string name="scnd">秒</string>
+
+    <string name="configure_device">配置设备</string>
+    <string name="lock">上锁</string>
+    <string name="device_password">设备密码</string>
+    <string name="host_ip">主机IP</string>
+    <string name="wifi_password">无线网络密码</string>
+    <string name="wifi_ssid">无线网络名称</string>
+    <string name="device_id">设备ID</string>
+    <string name="save_config">保存配置</string>
+    <string name="load_config">导入配置</string>
+    <string name="upload_config">上传配置</string>
+    <string name="no_device_id">设备ID未输入</string>
+    <string name="no_wifi_ssid">无线网络名称未输入</string>
+    <string name="no_wifi_password">无线网络密码未输入</string>
+    <string name="no_host_ip">主机IP未输入</string>
+    <string name="upload_config_completed">配置上传完成,设备将重启</string>
+    <string name="upload_config_failed">配置上传失败</string>
+    <string name="config1">配置1</string>
+    <string name="config2">配置2</string>
+    <string name="config3">配置3</string>
+    <string name="config4">配置4</string>
+    <string name="config_list">配置列表</string>
+    <string name="device_is_locked">设备已上锁,请输入密码</string>
+    <string name="Enter_device_password">输入设备密码</string>
+    <string name="Connect_to_device">连接设备中，请稍候</string>
+    <string name="Incorrect_password">输入密码错误</string>
+    <string name="Transmitting_data">传输数据中,请稍后再试</string>
+    <string name="formatting">格式化</string>
+    <string name="Formatting_completed">格式化配置完成，设备将重启</string>
+    <string name="Formatting_failed">格式化配置失败</string>
+    <string name="low_power_text">警告电压(mv)</string>
+    <string name="lose_connect">丢失连接</string>
+    <string name="warm_voltage_hight">警告电压过高</string>
+    <string name="get_wifi_ssid">获取当前无线名</string>
+    <string name="cannot_get_ssid">无法获取无线名称</string>
+    <string name="now">当前</string>
+    <string name="device_ip">设备IP</string>
+    <string name="gateway_ip">网关IP</string>
+    <string name="netmask">网络掩码</string>
+    <string name="dhcp">DHCP</string>
+    <string name="Miss_setting">配置缺失，请检查后重试</string>
+
+</resources>
